@@ -8,7 +8,7 @@ import {ValidationError} from "./ValidationError";
 import {ValidationOptions, IsEmailOptions, IsFQDNOptions, IsFloatOptions, IsURLOptions, IsIntOptions, IsCurrencyOptions} from "./ValidationOptions";
 import {ValidatorInterface} from "./ValidatorInterface";
 import {SanitizerInterface} from "./SanitizerInterface";
-import * as validatatorJs from "validator";
+import * as validatatorJs from "../../validator.js/validator";
 
 /**
  * Validator performs validation of the given object based on its metadata.
